@@ -14,7 +14,8 @@ $(function () {
       firstTimeSetup = false;
       //start game
       setInterval(main, 1000 / frameRate);
-    }
+    |
+  }}
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
